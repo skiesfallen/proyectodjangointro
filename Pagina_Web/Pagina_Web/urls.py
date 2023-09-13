@@ -16,7 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from Pagina_Web.views import prueba, default
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('prueba/', prueba),
+    path('',default),
+
+
 ]
