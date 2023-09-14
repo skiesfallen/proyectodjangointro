@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Pagina_Web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"C:\Users\jaime\OneDrive\Escritorio\Codigos\Proyecto intro ingenieria\Pagina_Web\Pagina_Web\template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
