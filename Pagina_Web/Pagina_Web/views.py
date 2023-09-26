@@ -8,3 +8,5 @@ def prueba(request):
     return HttpResponse("Saludos a la fer porque llego TARDE")
 def default(request):
     return render(request,"default/index.html")
+def mapa(request):
+    return render(request,"mapa/mapa.html")
