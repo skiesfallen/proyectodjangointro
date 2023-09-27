@@ -6,14 +6,14 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="map" style="width: 100%; height: 800px;"></div>
+    <div id="map" style="width: 100%; height: 600px;"></div>
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1Ijoic2VzdGF5dCIsImEiOiJjbG4yMjdnNXcwM3huMnFuaGQ0b2pvZmNjIn0.JaDwRJbv84xiaL48MmZDkg';
         var map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11',
-            center: [-33.03582051161511, -71.59509348608456], // Coordenadas iniciales del mapa (UTFSM)
+            center: [-33.0358, -71.59], // Coordenadas iniciales del mapa (UTFSM)
             zoom: 12 // Nivel de zoom inicial
         });
     </script>
