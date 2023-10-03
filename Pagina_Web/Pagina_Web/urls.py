@@ -18,13 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from Pagina_Web.views import prueba, default, mapa
+from Pagina_Web.views import prueba, default, mapa, modismos
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('prueba/', prueba),
     path('',default),
-    path('mapa/', mapa)
-
-
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('mapa/', mapa),
+    path('modismos/', modismos)
+ ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

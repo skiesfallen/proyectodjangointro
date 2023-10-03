@@ -11,3 +11,5 @@ def default(request):
     return render(request,"index.html")
 def mapa(request):
     return render(request,"mapa.html")
+def modismos(request):
+    return render(request, "modismos.html")
