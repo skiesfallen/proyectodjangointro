@@ -13,3 +13,5 @@ def mapa(request):
     return render(request,"mapa.html")
 def modismos(request):
     return render(request, "modismos.html")
+def index(request):
+    return render(request, "pruebas1.html")
