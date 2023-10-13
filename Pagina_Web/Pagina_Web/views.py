@@ -5,13 +5,15 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 
-def prueba(request):
-    return HttpResponse("Saludos a la fer porque llego TARDE")
-def default(request):
-    return render(request,"index.html")
-def mapa(request):
-    return render(request,"mapa.html")
-def modismos(request):
-    return render(request, "modismos.html")
 def index(request):
-    return render(request, "pruebas1.html")
+    return render(request,"Index/index.html")
+def mapa(request):
+    return render(request,"Api/mapa/mapa.html")
+def modismos(request):
+    return render(request, "index/modismos.html")
+def prueba(request):
+    return render(request, "index/pruebas1.html")
+def LogIn (request):
+    return render(request, "Inicio_Sesion/LogIn.html")
+def Register (request):
+    return render(request, "Inicio_Sesion/Register.html")
