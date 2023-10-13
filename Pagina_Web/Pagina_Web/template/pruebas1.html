@@ -1,10 +1,15 @@
 <html>
 <head>
     <style type="text/css">
-        .container {
-            text-align: right;
+
+        body {
             margin: 0%;
-            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            height: 75px;
+            justify-content: right;
             background-color: white;
         }
 
@@ -20,23 +25,29 @@
         }
 
         .register {
-            font-size: 15px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
             padding: 3px;
             padding-left: 15px;
             padding-right: 15px;
             border-color:rgba(0, 0, 0, 0.523);
             border-radius: 10px;
             border-style: dashed;
+            cursor: pointer;
         }
 
         .login {
-            font-size: 15px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
             padding: 3px;
             padding-left: 15px;
             padding-right: 15px;
             border-color:rgba(0, 0, 0, 0.523);
             border-radius: 10px;
             border-style: dashed;
+            cursor: pointer;
         }
 
         .bienvenida {
@@ -59,6 +70,7 @@
             border-color:rgba(0, 0, 0, 0.523);
             border-radius: 10px;
             border-style: dashed;
+            cursor: pointer;
         }
 
         .boton2 {
@@ -74,6 +86,7 @@
             border-color:rgba(0, 0, 0, 0.523);
             border-radius: 10px;
             border-style: dashed;
+            cursor: pointer;
         }        
 
         .boton3 {
@@ -89,6 +102,7 @@
             border-color:rgba(0, 0, 0, 0.523);
             border-radius: 10px;
             border-style: dashed;
+            cursor: pointer;
         }
 
         .fondo{
@@ -99,20 +113,20 @@
     </style>
 
 
-<header>
-    <br>
-    <div class="container">
+<body class="fondo" background="../../../static/img/fondoo.jpg">
+
+    <header>
+        <br>
         <a href="https://www.youtube.com/watch?v=wBW310FFoBU">
             <button class="register">Registrarse</button>
         </a>
         &nbsp;&nbsp;
-        <button class="login">Iniciar sesión</button>
+        <a href="https://youtu.be/xp4q-EFJnEs?si=05myQlyOAYLF8fk1">
+            <button class="login">Iniciar sesión</button>
+        </a>
         &nbsp;&nbsp;
-    </div>
-</header>
-
-
-<body class="fondo" background="../../../static/img/fondoo.jpg">
+    </header>
+    
     <br><br><br>
     <div class="title">
         <h1>Welcome to</h1>
