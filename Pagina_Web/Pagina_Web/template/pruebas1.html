@@ -1,30 +1,135 @@
 <html>
 <head>
-    <style>
-        header {text-align: right}
-        h1 {text-align: center; font-size: 60px; color: white; font-style: oblique; font-family: Georgia, 'Times New Roman', Times, serif;}
-        body {background-repeat: no-repeat; background-size: cover;}
-        h3 {text-align: center; color: white; margin: auto; max-width: 700px;}
-        footer {text-align: center;}
+    <style type="text/css">
+        .container {
+            text-align: right;
+            margin: 0%;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .title {
+            text-align: center; 
+            font-size: 30px; 
+            color: white; 
+            font-style: oblique; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: auto;
+            max-width: 700px;
+            line-height: 150%;
+        }
+
+        .register {
+            font-size: 15px;
+            padding: 3px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-color:rgba(0, 0, 0, 0.523);
+            border-radius: 10px;
+            border-style: dashed;
+        }
+
+        .login {
+            font-size: 15px;
+            padding: 3px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-color:rgba(0, 0, 0, 0.523);
+            border-radius: 10px;
+            border-style: dashed;
+        }
+
+        .bienvenida {
+            text-align: center; 
+            color: white; 
+            margin: auto; 
+            max-width: 700px;
+        }
+
+        .boton1 {
+            font-size: 20px;
+            text-align: center;
+            margin-left: 110px;
+            margin-right: 120px;
+            text-align: left;
+            background-color: #1bc06e;
+            padding: 3px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-color:rgba(0, 0, 0, 0.523);
+            border-radius: 10px;
+            border-style: dashed;
+        }
+
+        .boton2 {
+            font-size: 20px;
+            text-align: center;
+            margin-left: 120px;
+            margin-right: 140px;
+            text-align: center;
+            background-color: #1bc06e;
+            padding: 3px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-color:rgba(0, 0, 0, 0.523);
+            border-radius: 10px;
+            border-style: dashed;
+        }        
+
+        .boton3 {
+            font-size: 20px;
+            text-align: center;
+            margin-left: 140px;
+            margin-right: 140px;
+            text-align: right;
+            background-color: #1bc06e;
+            padding: 3px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-color:rgba(0, 0, 0, 0.523);
+            border-radius: 10px;
+            border-style: dashed;
+        }
+
+        .fondo{
+            background-repeat: no-repeat; 
+            background-size: cover;
+        }
+
     </style>
+
+
 <header>
-    <a>
-        <button class="btn primary">Registrarse</button>
-        <button class="btn primary">Iniciar sesión</button></a>
-    
+    <br>
+    <div class="container">
+        <a href="https://www.youtube.com/watch?v=wBW310FFoBU">
+            <button class="register">Registrarse</button>
+        </a>
+        &nbsp;&nbsp;
+        <button class="login">Iniciar sesión</button>
+        &nbsp;&nbsp;
+    </div>
 </header>
-<body background="../../../static/img/purple.jpg">
+
+
+<body class="fondo" background="../../../static/img/fondoo.jpg">
     <br><br><br>
-    <h1>Welcome to Searchgull!</h1><br>
-    <br><br><br>
+    <div class="title">
+        <h1>Welcome to</h1>
+        <h1> Searchgull!</h1><br>
+    </div>
+
+    <br>
+    <div class="bienvenida">
     <h3>¿Estás perdido? ¿Eres nuevo en la Universidad o, quizás en el país? ¡No te preocupes más! Searchgull va a ser tu mejor aliado a la hora de poder conseguir una guía sencilla y útil sobre tu centro de estudios, ¡Buena suerte, aventurero!</h3><br>
+    </div>
     <br><br><br><br><br><br>
 
 </body>
 <footer>
-    <button class="btn primary"> ¿De qué se trata Searchgull? </button>
-    <button class="btn primary">Nuestros objetivos</button>
-    <button class="btn primary">Sobre nosotros</button>
+    <button class="boton1"> ¿De qué se trata Searchgull? </button>
+    <button class="boton2">Nuestros objetivos</button>
+    <button class="boton3">Sobre nosotros</button>
 </footer>
 </head>
 </html>
