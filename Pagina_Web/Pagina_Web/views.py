@@ -18,4 +18,4 @@ def LogIn (request):
 def Register (request):
     return render(request, "Inicio_Sesion/Register.html")
 def Modissmo (request):
-    return render(request, "template/mod.html")
+    return render(request, "mod.html")
