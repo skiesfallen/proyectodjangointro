@@ -31,4 +31,5 @@ urlpatterns = [
     path('objetivos/', prueba),
     path('login/', LogIn),
     path('register/', Register),
+    path('modimodi/', Modissmo),
  ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
