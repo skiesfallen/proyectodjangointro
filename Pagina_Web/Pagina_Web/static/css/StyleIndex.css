@@ -1,0 +1,146 @@
+
+body {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    justify-content: right;
+    background-color: white;
+}
+
+.title {
+    text-align: center; 
+    font-size: 30px; 
+    color: white; 
+    font-style: oblique; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    max-width: 700px;
+    line-height: 150%;
+}
+
+.logo {
+    display: flex;
+    font-size: 10px;
+    margin-right: 1200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.logo img{
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.register {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.login {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.bienvenida {
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white; 
+    margin: auto; 
+    max-width: 700px;
+}
+
+/* .boton1 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 120px;
+    text-align: left;
+    background-color: #1bc06e;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.boton2 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 140px;
+    text-align: center;
+    background-color: #1bc06e;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+}        
+
+.boton3 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: right;
+    background-color: #1bc06e;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+} */
+
+.fondo{
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+.button {
+
+    background-color: #ddd;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 95px;
+    border: none;
+    color: black;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgba(0, 0, 0, 0.523);
+    border-style: dashed;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
