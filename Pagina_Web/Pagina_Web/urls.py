@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from Pagina_Web.views import prueba, mapa, modismos, index, LogIn, Register, Modissmo
+from Pagina_Web.views import prueba, mapa, modismos, index, LogIn, Register, Modissmo, readfile
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -32,4 +32,5 @@ urlpatterns = [
     path('login/', LogIn),
     path('register/', Register),
     path('modimodi/', Modissmo),
+    path('readfile', readfile),
  ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
