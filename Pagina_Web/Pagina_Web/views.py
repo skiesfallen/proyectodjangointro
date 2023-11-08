@@ -28,7 +28,6 @@ def readfile(request):
         linea = lineas.strip().split('-')
         dic[linea[0]] = linea[1]
     print(dic)
-    print(linea)
     f.close()
 
     # contents =f.read()
