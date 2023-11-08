@@ -4,7 +4,17 @@
     <title>Mapa USM</title>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
 </head>
-<body>
+<body class="fondo" background="../../../static/img/fondoo.jpg">
+<link rel="stylesheet" href="../../../static/css/StyleMapa.css">
+    <header>
+        <a href="/">
+            <button class="regreso">
+                <img src="../../../static/img/reversa.png">
+                &nbsp;&nbsp; Volver al inicio
+            </button>
+        </a>
+    </header>
+    <br>
     <div id="map" style="width: 100%; height: 700px;"></div>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
     <script src="../../../static/js/Map/config.js"></script>
@@ -13,7 +23,6 @@
     <br><h1>LINKS</h1><br>
 
     <a href="/modismos/"> Modismos Chilenos </a><br>
-    <a href="/"> Página principal </a><br>
 
 </body>
 </html>
