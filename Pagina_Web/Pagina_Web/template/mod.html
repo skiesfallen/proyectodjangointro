@@ -16,11 +16,15 @@
 <header>
     <div class="title">
         <br>
-        <h1> ¿Hay alguna palabra o modismo que no entiendas?</h1>
+        <h1> ¿Hay    alguna palabra o modismo que no entiendas?</h1>
     </div>
+
 </header>
 <body class="fondito" background="../../../static/img/estrellitas.jpg">
-
+    {% for palabra, definicion in diccionario.items %}
+        <h2 style="color:white">{{palabra}}:  {{definicion}} </h2>
+        
+    {%endfor%}
 
 </body>
 </html>

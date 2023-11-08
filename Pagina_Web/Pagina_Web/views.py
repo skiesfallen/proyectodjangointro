@@ -30,8 +30,7 @@ def readfile(request):
     print(dic)
     f.close()
 
-    # contents =f.read()
-    # print (contents)
-    return HttpResponse()   
+
+    return render(request, "mod.html", {"diccionario" : dic} )
 
 
