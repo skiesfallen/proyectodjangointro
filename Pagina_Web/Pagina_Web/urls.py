@@ -32,5 +32,5 @@ urlpatterns = [
     path('login/', LogIn),
     path('register/', Register),
     path('modimodi/', Modissmo),
-    path('readfile', readfile),
+    path('readfile/', readfile),
  ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

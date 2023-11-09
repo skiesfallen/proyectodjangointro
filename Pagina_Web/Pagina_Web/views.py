@@ -23,14 +23,15 @@ def Modissmo (request):
 
 def readfile(request):
     f = open('modismos.txt', 'r', encoding="UTF-8")
-    dic = {}
+    lista_palabras = [] #[0]: palabra    [1] definicion     [2] filtro
     for lineas in f:
         linea = lineas.strip().split('-')
-        dic[linea[0]] = linea[1]
-    print(dic)
+        lista_palabras.append(linea)
+
+    print(lista_palabras)        
     f.close()
 
 
-    return render(request, "mod.html", {"diccionario" : dic} )
+    return render(request, "mod.html", {"diccionario_palabras" : lista_palabras} )
 
 
