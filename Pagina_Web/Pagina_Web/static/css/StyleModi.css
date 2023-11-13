@@ -1,3 +1,14 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
 .title{
     font-size: 30px;
     color: white;
@@ -8,17 +19,9 @@
     line-height: 250%;
 }
 
-.contenedor{
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+.wrap {
+    max width: 1200px;
+    width: 90%;
+    margin: auto;
 }
 
-
-#Palabra:checked ~ #imagenes .Accion {
-    display: none;
-}
-
-#Palabra:checked ~ #imagenes .Definicion {
-    display: none;
-}

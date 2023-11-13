@@ -1,47 +1,42 @@
 <html>
 <head>
-    <header>
-        <div class="title">
-            <br>
-            <h1> ¿Hay algún modismo que no entiendas? </h1>
-        </div>
-</header>
 <body class="fondito" background="../../../static/img/fondoo.jpg">
 <link rel="stylesheet" href="../../../static/css/StyleModi.css">
-    <div class="contenedor">
-        <input type="radio" name="filtro" id="Todos" checked>
-        <label for="Todos"> Todos </label>
-        <input type="radio" name="filtro" id="Palabra">
-        <label for="Palabra"> Palabra </label>
-        <input type="radio" name="filtro" id="Definicion">
-        <label for="Definicion"> Definicion </label>
-        <input type="radio" name="filtro" id="Acción">
-        <label for="Acción"> Acción </label>
-        <input type="radio" name="filtro" id="Adjetivo">
-        <label for="Adjetivo"> Adjetivo </label>
-
-        <div id="imagenes">
-            <div class="Todos">
-
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <div class="wrap">
+        <h1> ¿Hay algún modismo que no entiendas? </h1>
+        <div class="container">
+            <div class="lista">
+                <a href="#" id="filtro" category="all"> Todo </a>
+                <a href="#" id="filtro" category="words"> Palabras </a>
+                <a href="#" id="filtro" category="definitions"> Definicion </a>
+                <a href="#" id="filtro" category="actions"> Acciones </a>
+                <a href="#" id="filtro" category="adjectives"> Adjetivos </a>
+                <a href="#" id="filtro" category="says"> Formas de decir </a>
+                <a href="#" id="filtro" category="others"> Otros </a>
             </div>
-            <div class="Palabra">
-                <img src="../../../static/img/uvita.jpg" width="100px" height="100px">
-                <img src="../../../static/img/uvita.jpg" width="100px" height="100px">
-                <img src="../../../static/img/uvita.jpg" width="100px" height="100px">
-            </div>
-            <div class="Definicion">
-                <img src="../../../static/img/gaviota.jpeg" width="100px" height="100px">
-                <img src="../../../static/img/gaviota.jpeg" width="100px" height="100px">
-                <img src="../../../static/img/gaviota.jpeg" width="100px" height="100px">
-            </div>
-            <div class="Acción">
-                <img src="../../../static/img/reversa.png" width="100px" height="100px">
-                <img src="../../../static/img/reversa.png" width="100px" height="100px">
-                <img src="../../../static/img/reversa.png" width="100px" height="100px">
-            </div>
-            <div class="Adjetivo">
-                
-            </div>
+            <section class="modismos">
+                <div class="palabrita" category="words">
+                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
+                    <a href="#"> Palabra 1 </a>
+                </div>
+                <div class="definition" category="definitions">
+                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
+                    <a href="#"> Palabra 2 </a>
+                </div>
+                <div class="accioncita" category="actions">
+                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
+                    <a href="#"> Palabra 3 </a>
+                </div>
+                <div class="adjetivito" category="adjectives">
+                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
+                    <a href="#"> Palabra 4 </a>
+                </div>
+                <div class="saysay" category="says">
+                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
+                    <a href="#"> Palabra 5 </a>
+                </div>
+            </section>
         </div>
     </div>
 
