@@ -71,7 +71,7 @@ body {
     text-align: center;
     flex-direction: column;
     width: 20%;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .lista .filtro {
@@ -97,7 +97,7 @@ body {
 }
 
 .palabra{
-    font-size: 20px;
+    font-size: 60px;
     margin-left: 15px;
 }
 

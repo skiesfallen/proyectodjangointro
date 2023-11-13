@@ -28,7 +28,7 @@
             <section class="modismos">
                 <hr>
                 <h1 class="palabra"> Palabra 1 </h1>
-                <h1 class="definicion"> Aqui va la definicion de cada palabra. Espero que todo salga bien mañana </h1>
+                <h1 class="definicion"> Aqui va la definicion de cada palabra. Espero que todo salga bien hoy </h1>
                 <br>
                 <h1 class="categoria"> Tipo de palabra </h1>
                 <hr>
@@ -39,7 +39,7 @@
     {% for palabra, definicion, filtro in diccionario_palabras%}
 
         {% if "Acción" in filtro %}
-            <h2 style="color:black">{{palabra}}:  {{definicion}}  </h2>
+            <h2 style="color:white">{{palabra}}:  {{definicion}}  </h2>
         {% endif %}
     {%endfor%}
 
