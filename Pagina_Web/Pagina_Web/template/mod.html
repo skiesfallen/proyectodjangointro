@@ -1,34 +1,102 @@
 <html>
 <head>
-    <style type="text/css">
-
-        .title{
-            font-size: 30px;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-align: center;
-            margin: auto;
-            max-width: 900px;
-            line-height: 250%;
-        }
-    </style>
-</head>
-<header>
-    <div class="title">
+<body class="fondito" background="../../../static/img/fondoo.jpg">
+<link rel="stylesheet" href="../../../static/css/StyleModi.css">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <header>
         <br>
-        <h1> ¿Hay alguna palabra o modismo que no entiendas?</h1>
+        <a href="/">
+            <button class="regreso">
+                <img src="../../../static/img/reversa.png">
+                Volver al inicio
+            </button>
+        </a>
+    </header>
+    <br>
+    <div class="wrap">
+        <br>
+        <h1> ¿Hay algún modismo que no entiendas? </h1>
+        <br>
+        <div class="container">
+            <div class="lista">
+                <br>
+                <h1 class="titulpo"> Filtros: </h1>
+                <br>
+                <a href="#" class="filtro" category="all"> Todo </a>
+                <a href="#" class="filtro" category="words"> Palabras </a>
+                <a href="#" class="filtro" category="definitions"> Definicion </a>
+                <a href="#" class="filtro" category="actions"> Acciones </a>
+                <a href="#" class="filtro" category="adjectives"> Adjetivos </a>
+                <a href="#" class="filtro" category="says"> Formas de decir </a>
+                <a href="#" class="filtro" category="others"> Otros </a>
+            </div>
+            
+            <section class="modismos">
+                <hr>
+                <br>
+                <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
+                <h1 class="palabra"> Achacarse </h1>
+                <h1 class="categoria"> Acción </h1>&nbsp;
+                <h1 class="definicioon"> Desanimarse, entristecerse. </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+
+                <br>
+                <img class="imagen" src="../../../static/img/gatoo.jpg" align="right">
+                <h1 class="palabra"> Palabra2 </h1>
+                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
+                <h1 class="definicioon"> Hiyahiyahiayiduhajd </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+
+                <br>
+                <img class="imagen" src="../../../static/img/hum.jpeg" align="right">
+                <h1 class="palabra"> Palabra1 </h1>
+                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
+                <h1 class="definicioon"> Holaholablabjdhabjbjasjcnjds </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+
+                <br>
+                <img class="imagen" src="../../../static/img/cat.jpg" align="right">
+                <h1 class="palabra"> Palabra2 </h1>
+                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
+                <h1 class="definicioon"> Hiyahiyahiayiduhajd </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+
+                <br>
+                <img class="imagen" src="../../../static/img/uvita.jpg" align="right">
+                <h1 class="palabra"> Palabra1 </h1>
+                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
+                <h1 class="definicioon"> Holaholablabjdhabjbjasjcnjds </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+
+                <br>
+                <img class="imagen" src="../../../static/img/gaviota.jpeg" align="right">
+                <h1 class="palabra"> Palabra2 </h1>
+                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
+                <h1 class="definicioon"> Hiyahiyahiayiduhajd </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+            </section>
+        </div>
     </div>
-
-</header>
-<body class="fondito" background="../../../static/img/estrellitas.jpg">
-
 
     {% for palabra, definicion, filtro in diccionario_palabras%}
 
-        {% if "???" in filtro %}
+        {% if "Acción" in filtro %}
             <h2 style="color:white">{{palabra}}:  {{definicion}}  </h2>
         {% endif %}
     {%endfor%}
 
 </body>
+</head>
 </html>
