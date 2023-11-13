@@ -32,71 +32,26 @@
             </div>
             
             <section class="modismos">
+                
+                {% for palabra, definicion, filtro in diccionario_palabras %}
+                
+                {% if "MIENTRAS" in filtro %}
                 <hr>
                 <br>
                 <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
-                <h1 class="palabra"> Achacarse </h1>
-                <h1 class="categoria"> Acción </h1>&nbsp;
-                <h1 class="definicioon"> Desanimarse, entristecerse. </h1>&nbsp;
+                <h1 class="palabra" > {{palabra}} </h1>
+                <h1 class="categoria"> {{filtro}} </h1>&nbsp;
+                <h1 class="definicioon"> {{definicion}} </h1>&nbsp;
                 <br>
                 <br>
                 <hr>
-
-                <br>
-                <img class="imagen" src="../../../static/img/gatoo.jpg" align="right">
-                <h1 class="palabra"> Palabra2 </h1>
-                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
-                <h1 class="definicioon"> Hiyahiyahiayiduhajd </h1>&nbsp;
-                <br>
-                <br>
-                <hr>
-
-                <br>
-                <img class="imagen" src="../../../static/img/hum.jpeg" align="right">
-                <h1 class="palabra"> Palabra1 </h1>
-                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
-                <h1 class="definicioon"> Holaholablabjdhabjbjasjcnjds </h1>&nbsp;
-                <br>
-                <br>
-                <hr>
-
-                <br>
-                <img class="imagen" src="../../../static/img/cat.jpg" align="right">
-                <h1 class="palabra"> Palabra2 </h1>
-                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
-                <h1 class="definicioon"> Hiyahiyahiayiduhajd </h1>&nbsp;
-                <br>
-                <br>
-                <hr>
-
-                <br>
-                <img class="imagen" src="../../../static/img/uvita.jpg" align="right">
-                <h1 class="palabra"> Palabra1 </h1>
-                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
-                <h1 class="definicioon"> Holaholablabjdhabjbjasjcnjds </h1>&nbsp;
-                <br>
-                <br>
-                <hr>
-
-                <br>
-                <img class="imagen" src="../../../static/img/gaviota.jpeg" align="right">
-                <h1 class="palabra"> Palabra2 </h1>
-                <h1 class="categoria"> Tipo de palabra </h1>&nbsp;
-                <h1 class="definicioon"> Hiyahiyahiayiduhajd </h1>&nbsp;
-                <br>
-                <br>
-                <hr>
-            </section>
+                {% endif %}
+                {%endfor%}
+            </section>  
         </div>
-    </div>
-
-    {% for palabra, definicion, filtro in diccionario_palabras%}
-
-        {% if "Acción" in filtro %}
-            <h2 style="color:white">{{palabra}}:  {{definicion}}  </h2>
-        {% endif %}
-    {%endfor%}
-
+    </div> 
+    <section class="modismos">
+        
 </body>
 </head>
 </html>
