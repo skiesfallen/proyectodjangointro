@@ -6,9 +6,42 @@
             <h1> ¿Hay algún modismo que no entiendas? </h1>
         </div>
 </header>
-<body class="fondito" background="../../../static/img/estrellitas.jpg">
+<body class="fondito" background="../../../static/img/fondoo.jpg">
 <link rel="stylesheet" href="../../../static/css/StyleModi.css">
+    <div class="contenedor">
+        <input type="radio" name="filtro" id="Todos" checked>
+        <label for="Todos"> Todos </label>
+        <input type="radio" name="filtro" id="Palabra">
+        <label for="Palabra"> Palabra </label>
+        <input type="radio" name="filtro" id="Definicion">
+        <label for="Definicion"> Definicion </label>
+        <input type="radio" name="filtro" id="Acción">
+        <label for="Acción"> Acción </label>
+        <input type="radio" name="filtro" id="Adjetivo">
+        <label for="Adjetivo"> Adjetivo </label>
 
+        <div id="imagenes">
+            <div class="Todos">
+
+            </div>
+            <div class="Palabra">
+                <img src="../../../static/img/uvita.jpg" width="100px" height="100px">
+                <img src="../../../static/img/uvita.jpg" width="100px" height="100px">
+                <img src="../../../static/img/uvita.jpg" width="100px" height="100px">
+            </div>
+            <div class="Definicion">
+                <img src="../../../static/img/gaviota.jpeg" width="100px" height="100px">
+                <img src="../../../static/img/gaviota.jpeg" width="100px" height="100px">
+                <img src="../../../static/img/gaviota.jpeg" width="100px" height="100px">
+            </div>
+            <div class="Acción">
+                
+            </div>
+            <div class="Adjetivo">
+                
+            </div>
+        </div>
+    </div>
 
     {% for palabra, definicion, filtro in diccionario_palabras%}
 

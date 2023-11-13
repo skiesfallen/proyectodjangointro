@@ -7,3 +7,14 @@
     max-width: 900px;
     line-height: 250%;
 }
+
+.contenedor{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+#Palabra :checked ~ #imagenes .Definicion {
+    display: none;
+}
