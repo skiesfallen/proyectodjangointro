@@ -19,3 +19,17 @@ body {
     line-height: 250%;
 }
 
+.wrap{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    background-color: beige;
+}
+
+.wrap > h1 {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px;
+}
