@@ -71,15 +71,14 @@ body {
     text-align: center;
     flex-direction: column;
     width: 20%;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .lista .filtro {
     display: block;
-    width: 70%;
+    width: 80%;
     padding: 15px 0;
     margin-bottom: 20px;
-    margin-left: 20px;
     background: #f2d0a8e5;
     text-decoration: none;
     color: black;
@@ -90,25 +89,25 @@ body {
     width: 77%;
     margin-left: 5px;
     background: #ffffffe5;
+    display: flex;
 }
-
 .titulo{
     font-size: 20px;
     margin-left: 15px;
 }
 
 .palabra{
-    font-size: 50px;
+    font-size: 25px;
     margin-left: 15px;
 }
 
 .definicion{
-    font-size: 30px;
+    font-size: 15px;
     margin-left: 15px;
 }
 
 .categoria{
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 15px;
 }
 
