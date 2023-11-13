@@ -15,6 +15,10 @@
 }
 
 
-#Palabra :checked ~ #imagenes .Definicion {
+#Palabra:checked ~ #imagenes .Accion {
+    display: none;
+}
+
+#Palabra:checked ~ #imagenes .Definicion {
     display: none;
 }
