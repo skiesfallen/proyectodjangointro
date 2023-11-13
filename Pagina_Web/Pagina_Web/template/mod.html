@@ -3,39 +3,35 @@
 <body class="fondito" background="../../../static/img/fondoo.jpg">
 <link rel="stylesheet" href="../../../static/css/StyleModi.css">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <header>
+        <br>
+        <a href="/">
+            <button class="regreso">
+                <img src="../../../static/img/reversa.png">
+                Volver al inicio
+            </button>
+        </a>
+    </header>
+    <br>
     <div class="wrap">
         <h1> ¿Hay algún modismo que no entiendas? </h1>
         <div class="container">
             <div class="lista">
-                <a href="#" id="filtro" category="all"> Todo </a>
-                <a href="#" id="filtro" category="words"> Palabras </a>
-                <a href="#" id="filtro" category="definitions"> Definicion </a>
-                <a href="#" id="filtro" category="actions"> Acciones </a>
-                <a href="#" id="filtro" category="adjectives"> Adjetivos </a>
-                <a href="#" id="filtro" category="says"> Formas de decir </a>
-                <a href="#" id="filtro" category="others"> Otros </a>
+                <a href="#" class="filtro" category="all"> Todo </a>
+                <a href="#" class="filtro" category="words"> Palabras </a>
+                <a href="#" class="filtro" category="definitions"> Definicion </a>
+                <a href="#" class="filtro" category="actions"> Acciones </a>
+                <a href="#" class="filtro" category="adjectives"> Adjetivos </a>
+                <a href="#" class="filtro" category="says"> Formas de decir </a>
+                <a href="#" class="filtro" category="others"> Otros </a>
             </div>
             <section class="modismos">
-                <div class="palabrita" category="words">
-                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
-                    <a href="#"> Palabra 1 </a>
-                </div>
-                <div class="definition" category="definitions">
-                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
-                    <a href="#"> Palabra 2 </a>
-                </div>
-                <div class="accioncita" category="actions">
-                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
-                    <a href="#"> Palabra 3 </a>
-                </div>
-                <div class="adjetivito" category="adjectives">
-                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
-                    <a href="#"> Palabra 4 </a>
-                </div>
-                <div class="saysay" category="says">
-                    <img src="../../../static/img/uvita.jpg" width="100px" height="100px" alt="">
-                    <a href="#"> Palabra 5 </a>
-                </div>
+                <hr>
+                <h1 class="palabra"> Palabra 1 </h1>
+                <h1 class="definicion"> Aqui va la definicion de cada palabra. Espero que todo salga bien mañana </h1>
+                <br>
+                <h1 class="categoria"> Tipo de palabra </h1>
+                <hr>
             </section>
         </div>
     </div>
@@ -43,7 +39,7 @@
     {% for palabra, definicion, filtro in diccionario_palabras%}
 
         {% if "Acción" in filtro %}
-            <h2 style="color:white">{{palabra}}:  {{definicion}}  </h2>
+            <h2 style="color:black">{{palabra}}:  {{definicion}}  </h2>
         {% endif %}
     {%endfor%}
 
