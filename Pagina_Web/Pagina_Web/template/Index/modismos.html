@@ -22,7 +22,7 @@
                 <h1 class="titulpo"> Filtros: </h1>
                 <br>
                 <a href="/modismos/" class="filtro" category="all"> Todo </a>
-                <a href="Palabras" class="filtro" category="words"> Palabras </a>
+                <a href="Dicho" class="filtro" category="words"> Dichos </a>
                 <a href="Definición" class="filtro" category="definitions"> Definicion </a>
                 <a href="Acción" class="filtro" category="actions"> Acciones </a>
                 <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivos </a>
@@ -33,7 +33,7 @@
                 
                 {% for palabra, definicion, filtro in diccionario_palabras %}
                 
-                {% if "MIENTRAS" in filtro %}
+                <!-- {% if "MIENTRAS" in filtro %} -->
                 <hr>
                 <br>
                 <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
@@ -43,7 +43,7 @@
                 <br>
                 <br>
                 <hr>
-                {% endif %}
+                <!-- {% endif %} -->
                 {%endfor%}
             </section>  
         </div>

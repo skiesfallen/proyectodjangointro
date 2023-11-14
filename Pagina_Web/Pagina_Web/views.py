@@ -13,11 +13,13 @@ def mapa(request):
 def modismos(request):
     f = open('modismos.txt', 'r', encoding="UTF-8")
     lista_palabras = [] #[0]: palabra    [1] definicion     [2] filtro
+
     for lineas in f:
+        
         linea = lineas.strip().split('-')
         lista_palabras.append(linea)
 
-    print(lista_palabras)        
+    
     f.close()
 
 
@@ -47,8 +49,7 @@ def readfile(request, filtro):
             linea = lineas.strip().split('-')
             linea.append(filtro)
             lista_palabras.append(linea)
-
-    print(lista_palabras)        
+      
     f.close()
 
 
