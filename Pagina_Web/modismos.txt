@@ -1,32 +1,32 @@
-Achacarse-Desanimarse, entristecerse-Acción
-Achuntar-Acertar, estar en lo correcto-Acción 
-A lapa-Subirse a los hombros de otra persona-Acción 
-Al lote-Desordenado, sin orden, sin reglas-Adjetivo 
-Al tiro-De inmediato-Forma de decir 
-Al toque-Hacer algo de manera inmediata-Acción
-Andar pato-No tener dinero-Forma de decir/Dicho 
-Apañar-Apoyar a alguien-Acción 
-Apestarse-Aburrirse, amargarse, enojarse, disgustarse-Acción 
-Aperrar-Ser valiente, ser perseverante-Acción 
+Achacarse-Desanimarse, entristecerse.-Acción
+Achuntar-Acertar, estar en lo correcto.-Acción 
+A lapa-Subirse a los hombros de otra persona.-Acción 
+Al lote-Desordenado, sin orden, sin reglas.-Adjetivo 
+Al tiro-De inmediato.-Forma de decir 
+Al toque-Hacer algo de manera inmediata.-Acción
+Andar pato-No tener dinero.-Forma de decir/Dicho 
+Apañar-Apoyar a alguien.-Acción 
+Apestarse-Aburrirse, amargarse, enojarse, disgustarse.-Acción 
+Aperrar-Ser valiente, ser perseverante.-Acción 
 Apitutado-Alguien que tiene buenos contactos y consigue beneficios por ello.-Adjetivo 
-Apretado-Avaro, tacaño, egoísta, que no presta dinero-Adjetivo
-Apretar cachete-Escapar rapido de un lugar -MIENTRAS
-Atao-Problema-Dificulad para resolver una situacion
-Avispado-Inteligente, ágil, alguien audaz-Adjetivo
-Bacán-Increíble, excelente, espectacular, bueno-Adjetivo
-Cabra/o-Jóvenes o niño/a-MIENTRAS
-Cogoteo-Tipo de robo-MIENTRAS
-Curao-Bajo los efectos del alcohol-MIENTRAS
-De pana-Es un sinonimo de bacán,increible-MIENTRAS
-Embarrarla-Arruinar algo o una situacion-MIENTRAS
-Fome-Sin gracia o aburrido-MIENTRAS
-Gamba-Cien pesos-MIENTRAS
-Hallula-Tipo de pan -MIENTRAS
-Hacer una vaca-Juntar dinero entre amigos para comprar algo-MIENTRAS
-Mandarse un condoro-Cometer un error-MIENTRAS
-Pega-Trabajo-MIENTRAS
-Sacar la cresta-Pegarle a alguien/Caerse-MIENTRAS
-Sapo-Persona que cuenta todo-MIENTRAS
-Ser cagado-Cuando una persona no suelta dinero facilmente-MIENTRAS
-Venderla-Andar pavo o poco atento -MIENTRAS
-Yunta-Amigo/a-MIENTRAS
+Apretado-Avaro, tacaño, egoísta, que no presta dinero.-Adjetivo
+Apretar cachete-Escapar rapido de un lugar.-Acción
+Atao-Problema, dificultad para resolver una situacion.-MIENTRAS
+Avispado-Inteligente, ágil, alguien audaz.-Adjetivo
+Bacán-Increíble, excelente, espectacular, bueno.-Adjetivo
+Cabra/o-Jóvenes o niño/a.-Adjetivo
+Cogoteo-Tipo de robo.-MIENTRAS
+Curao-Bajo los efectos del alcohol.-MIENTRAS
+De pana-Es un sinonimo de bacán,increible.-MIENTRAS
+Embarrarla-Arruinar algo o una situación.-MIENTRAS
+Fome-Sin gracia o aburrido.-Adjetivo
+Gamba-Cien pesos.-MIENTRAS
+Hallula-Tipo de pan.-MIENTRAS
+Hacer una vaca-Juntar dinero entre amigos para comprar algo.-Acción
+Mandarse un condoro-Cometer un error.-Acción
+Pega-Trabajo.-MIENTRAS
+Sacar la cresta-Pegarle a alguien/Caerse.-Acción
+Sapo-Persona que cuenta todo.-Adjetivo
+Ser cagado-Cuando una persona no suelta dinero facilmente.-MIENTRAS
+Venderla-Andar pavo o poco atento.-MIENTRAS
+Yunta-Amigo/a.-MIENTRAS
