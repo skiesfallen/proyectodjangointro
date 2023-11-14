@@ -21,20 +21,20 @@
             <div class="lista">
                 <h1 class="titulpo"> Filtros: </h1>
                 <br>
-                <a href="#" class="filtro" category="all"> Todo </a>
-                <a href="#" class="filtro" category="words"> Palabras </a>
-                <a href="#" class="filtro" category="definitions"> Definicion </a>
-                <a href="#" class="filtro" category="actions"> Acciones </a>
-                <a href="#" class="filtro" category="adjectives"> Adjetivos </a>
-                <a href="#" class="filtro" category="says"> Formas de decir </a>
-                <a href="#" class="filtro" category="others"> Otros </a>
+                <a href="/modismos/" class="filtro" category="all"> Todo </a>
+                <a href="Palabras" class="filtro" category="words"> Palabras </a>
+                <a href="Definición" class="filtro" category="definitions"> Definicion </a>
+                <a href="Acción" class="filtro" category="actions"> Acciones </a>
+                <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivos </a>
+                <a href="Forma_de_decir" class="filtro" category="says"> Formas de decir </a>
             </div>
+
             
             <section class="modismos">
                 
-                {% for palabra, definicion, filtro in diccionario_palabras %}
+                {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
                 
-                {% if "MIENTRAS" in filtro %}
+                {% if busco_coca in filtro %}
                 <hr>
                 <br>
                 <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
