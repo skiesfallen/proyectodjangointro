@@ -32,12 +32,12 @@
             
             <section class="modismos">
                 
-                {% for palabra, definicion, filtro, imagen busco_coca in diccionario_palabras %}
+                {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
                 
                 {% if busco_coca in filtro %}
                 <hr>
                 <br>
-                <img class="imagen" src="{{imagen}}" align="right">
+                <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
                 <h1 class="palabra" > {{palabra}} </h1>
                 <h1 class="categoria"> {{filtro}} </h1>&nbsp;
                 <h1 class="definicioon"> {{definicion}} </h1>&nbsp;
