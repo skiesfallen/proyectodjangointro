@@ -34,8 +34,8 @@
             <section class="modismos">
                 
                 {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
-                
-                    {% for original, busco_coca in diccionario_palabras %}
+
+                    {% for palabra, definicion, original, busco_coca in diccionario_palabras %}
                     <hr>
                     <br>
                     <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
