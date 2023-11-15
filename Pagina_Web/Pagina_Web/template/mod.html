@@ -21,7 +21,7 @@
             <div class="lista">
                 <h1 class="titulpo"> Filtros: </h1>
                 <br>
-                <a href="/modismos/" class="original" class="filtro" category="all"> Todo </a>
+                <a href="/modismos/" class="filtro" category="all"> Todo </a>
                 <a href="Dicho" class="filtro" category="words"> Dicho </a>
                 <a href="Acción" class="filtro" category="actions"> Acción </a>
                 <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivo </a>
@@ -34,18 +34,6 @@
             <section class="modismos">
                 
                 {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
-
-                    {% for palabra, definicion, original, busco_coca in diccionario_palabras %}
-                    <hr>
-                    <br>
-                    <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
-                    <h1 class="palabra" > {{palabra}} </h1>
-                    <h1 class="categoria"> {{filtro}} </h1>&nbsp;
-                    <h1 class="definicioon"> {{definicion}} </h1>&nbsp;
-                    <br>
-                    <br>
-                    <hr>
-                    {%endfor%}
 
                 {% if busco_coca in filtro %}
                 <hr>
