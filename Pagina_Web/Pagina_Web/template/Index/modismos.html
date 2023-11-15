@@ -30,11 +30,12 @@
                 <a href="Forma_de_decir" class="filtro" category="says"> Forma de decir </a>
             </div>
             
+
             <section class="modismos">
                 
-                {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
-
-                {% if busco_coca in filtro %}
+                {% for palabra, definicion, filtro in diccionario_palabras %}
+                
+                
                 <hr>
                 <br>
                 <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
@@ -44,7 +45,6 @@
                 <br>
                 <br>
                 <hr>
-                {% endif %}
                 {%endfor%}
             </section>  
         </div>
