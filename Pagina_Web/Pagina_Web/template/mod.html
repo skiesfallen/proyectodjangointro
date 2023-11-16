@@ -19,25 +19,28 @@
         <br>
         <div class="container">
             <div class="lista">
+                <img src="../../../static/img/gaviota.jpeg" align="center" width="200px" height="200px">
+                <br>
+                <br>
                 <h1 class="titulpo"> Filtros: </h1>
                 <br>
                 <a href="/modismos/" class="filtro" category="all"> Todo </a>
-                <a href="Dicho" class="filtro" category="words"> Dichos </a>
-                <a href="Acción" class="filtro" category="actions"> Acciones </a>
-                <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivos </a>
+                <a href="Dicho" class="filtro" category="words"> Dicho </a>
+                <a href="Acción" class="filtro" category="actions"> Acción </a>
+                <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivo </a>
+                <a href="Situación" class="filtro" category="situation"> Situación </a>
                 <a href="Vida_cotidiana" class="filtro" category="cotidianlife"> Vida cotidiana </a>
-                <a href="Forma_de_decir" class="filtro" category="says"> Formas de decir </a>
+                <a href="Forma_de_decir" class="filtro" category="says"> Forma de decir </a>
             </div>
 
             
             <section class="modismos">
                 
                 {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
-                
+
                 {% if busco_coca in filtro %}
                 <hr>
                 <br>
-                <img class="imagen" src="../../../static/img/gato-meme.jpg" align="right">
                 <h1 class="palabra" > {{palabra}} </h1>
                 <h1 class="categoria"> {{filtro}} </h1>&nbsp;
                 <h1 class="definicioon"> {{definicion}} </h1>&nbsp;
@@ -49,7 +52,7 @@
             </section>  
         </div>
     </div> 
-        
+    <section class="modismos">
 </body>
 </head>
 </html>
