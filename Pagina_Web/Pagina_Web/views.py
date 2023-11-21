@@ -57,14 +57,15 @@ def buscar_ubicacion(request):
         lugar = request.POST.get('ubicacion', '')  # Obtiene la ubicación del formulario
         if lugar:
             coordenadas = obtener_coordenadas(lugar)
-            return render(request, 'resultadobuscador.html', {'coordenadas': coordenadas})
+            print("DATOS:   ",coordenadas)
+            return render(request, 'Api/mapa/mapa_busqueda.html', {'coordenadas': coordenadas})
         
         else:
             mensaje_error = 'Por favor, ingresa una ubicación.'
-            return render(request, 'buscador.html', {'error': mensaje_error})
+            return render(request, 'Api/mapa/mapa_busqueda.html', {'error': mensaje_error})
         
     else:
-        return render(request, 'buscador.html')
+        return render(request, 'Api/mapa/mapa_busqueda.html')
     
 def obtener_coordenadas(lugar):
     api_key = 'pk.eyJ1Ijoic2VzdGF5dCIsImEiOiJjbG4yMjdnNXcwM3huMnFuaGQ0b2pvZmNjIn0.JaDwRJbv84xiaL48MmZDkg'

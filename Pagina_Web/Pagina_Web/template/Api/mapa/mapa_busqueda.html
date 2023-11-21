@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mapa USM</title>
+    <title>Resultado de Búsqueda</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+    
 </head>
 <style>
     .form{
@@ -33,7 +35,6 @@
         </a>
     </header>
     <br>
-
     <div class="form">
         <form method="post" action="{% url 'buscar_ubicacion' %}">
             {% csrf_token %}
@@ -42,15 +43,31 @@
             <button type="submit">Buscar</button>
         </form>
     </div>
+    <div id="map" style="width: 75%; height: 650px;"></div>
+     
     
-    <div id="map" style="width: 75%; height: 700px;"></div>
-
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
     <script src="../../../static/js/Map/config.js"></script>
-    <script src="../../../static/js/Map/script.js"></script>
+    
+    <script>
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-71.59496643495604,-33.035960040525815], // Coordenadas iniciales del mapa (UTFSM)
+            zoom: 16.5 // Nivel de zoom inicial
+        });
+        map.addControl(new mapboxgl.NavigationControl());
 
+        map.addControl(new mapboxgl.GeolocateControl({
+            positionOption:{
+                enableHighAccuracy: true
+            },
+            trackUserLocation: true
+        }))
+    </script>
     <br>
+    <p style="color: #ddd;">Coordenadas: {{ coordenadas.coordenadas }}</p>
 
 </body>
 </html>
