@@ -1,0 +1,35 @@
+<!-- resultado.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado de Búsqueda</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Resultado de Búsqueda</h1>
+    {% if coordenadas %}
+        <p>Nombre: {{ coordenadas.nombre }}</p>
+        <p>Coordenadas: {{ coordenadas.coordenadas }}</p>
+        <div id="map" style="height: 400px;"></div>
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoic2VzdGF5dCIsImEiOiJjbG4yMjdnNXcwM3huMnFuaGQ0b2pvZmNjIn0.JaDwRJbv84xiaL48MmZDkg';
+            var coordenadas = { coordenadas,coordenadas};
+            
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [coordenadas[0], coordenadas[1]],  // Formatea las coordenadas
+                zoom: 12
+            });
+
+            var marker = new mapboxgl.Marker()
+                .setLngLat(coordenadas)
+                .addTo(map);
+        </script>
+    {% else %}
+        <p>No se encontraron resultados.</p>
+    {% endif %}
+</body>
+</html>
