@@ -1,0 +1,19 @@
+<!-- buscador.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buscador de Ubicaciones</title>
+</head>
+<body>
+    <h1>Buscador de Ubicaciones</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="post" action="{% url 'buscar_ubicacion' %}">
+        {% csrf_token %}
+        <label for="ubicacion">Buscar Ubicación:</label>
+        <input type="text" id="ubicacion" name="ubicacion" required>
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+</html>

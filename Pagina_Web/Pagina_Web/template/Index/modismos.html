@@ -1,36 +1,58 @@
-{% load static %}
-<!DOCTYPE html>
 <html>
-<head>  
-    <title>  Chilenos</title>
-    <link rel="stylesheet" href="../../../static/css/StyleModismos.css">
-</head>
-
-<body>
-    <p> 
+<head>
+<body class="fondito" background="../../../static/img/fondoo.jpg">
+<link rel="stylesheet" href="../../../static/css/StyleModi.css">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <header>
         <br>
-        <h1 style="color:red">PROHIBIDO BORRAR LA GAVIOTA DE LOS ARCHIVOS!! </h1>
-    
-        <img src="../../../static/img/Gaviota.jpeg" align="right" width="350" height="350"/>
-        </p>
-    <a href="/mapa/"> Mapa Universidad </a><br>
-    <a href="/"> Página principal </a>
+        <a href="/">
+            <button class="regreso">
+                <img src="../../../static/img/reversa.png">
+                Volver al inicio
+            </button>
+        </a>
+    </header>
+    <br>
+    <div class="wrap">
+        <br>
+        <h1> ¿Hay algún modismo que no entiendas? </h1>
+        <br>
+        <div class="container">
+            <div class="lista">
+                <img src="../../../static/img/gaviota.jpeg" al="center" width="200px" height="200px">
+                <br>
+                <br>
+                <h1 class="titulpo"> Filtros: </h1>
+                <br>
+                <a href="/modismos/" class="filtro" category="all"> Todo </a>
+                <a href="Dicho" class="filtro" category="words"> Dicho </a>
+                <a href="Acción" class="filtro" category="actions"> Acción </a>
+                <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivo </a>
+                <a href="Situación" class="filtro" category="situation"> Situación </a>
+                <a href="Vida_cotidiana" class="filtro" category="cotidianlife"> Vida cotidiana </a>
+                <a href="Forma_de_decir" class="filtro" category="says"> Forma de decir </a>
+            </div>
+            
 
-    
-    <h1>
-        Lista de los modismos más comunes:
-</h1>
-<h2>Achacarse: Desanimarse, entristecerse.</h2><br>
-<h2>Achuntar - Acertar, estar en lo correcto.</h2><br><h2>A lapa - Subirse a los hombros de otra persona.</h2><br>
-<h2>Al lote - Desordenado, sin orden, sin reglas.</h2><br><h2>Al tiro - De inmediato.</h2><br>
-<h2>Al toque - Hacer algo de manera inmediata.</h2><br><h2>Andar pato - No tener dinero.</h2><br>
-<h2>Apañar - Apoyar a alguien.</h2><br><h2>Apestarse - Aburrirse, amargarse, enojarse, disgustarse.</h2><br>
-<h2>Aperrar - Ser valiente, ser perseverante.</h2><br><h2>Apitutado - Alguien que tiene buenos contactos y consigue beneficios por ello.</h2><br>
-<h2>Apretado - Avaro, tacaño, egoísta, que no presta dinero.</h2><br><h2>Atao - Problema.</h2><br>
-<h2>Avispado - Inteligente, ágil, alguien audaz.</h2><br><h2>Bacán - Increíble, excelente, espectacular, bueno.</h2><br>
-<h1>Hay que dejar bonito esto</h1>
-<br><br><br>
-
-
+            <section class="modismos">
+                
+                {% for palabra, definicion, filtro in diccionario_palabras %}
+                
+                
+                <hr>
+                <br>
+                <h1 class="palabra" > {{palabra}} </h1>
+                <h1 class="categoria"> {{filtro}} </h1>&nbsp;
+                <h1 class="definicioon"> {{definicion}} </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+                {%endfor%}
+            </section>  
+        </div>
+    </div> 
+    <section class="modismos">
+        
 </body>
+</head>
 </html>

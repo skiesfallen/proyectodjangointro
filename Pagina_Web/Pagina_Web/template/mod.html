@@ -1,34 +1,58 @@
 <html>
 <head>
-    <style type="text/css">
-
-        .title{
-            font-size: 30px;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-align: center;
-            margin: auto;
-            max-width: 900px;
-            line-height: 250%;
-        }
-    </style>
-</head>
-<header>
-    <div class="title">
+<body class="fondito" background="../../../static/img/fondoo.jpg">
+<link rel="stylesheet" href="../../../static/css/StyleModi.css">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <header>
         <br>
-        <h1> ¿Hay alguna palabra o modismo que no entiendas?</h1>
-    </div>
+        <a href="/">
+            <button class="regreso">
+                <img src="../../../static/img/reversa.png">
+                Volver al inicio
+            </button>
+        </a>
+    </header>
+    <br>
+    <div class="wrap">
+        <br>
+        <h1> ¿Hay algún modismo que no entiendas? </h1>
+        <br>
+        <div class="container">
+            <div class="lista">
+                <img src="../../../static/img/gaviota.jpeg" align="center" width="200px" height="200px">
+                <br>
+                <br>
+                <h1 class="titulpo"> Filtros: </h1>
+                <br>
+                <a href="/modismos/" class="filtro" category="all"> Todo </a>
+                <a href="Dicho" class="filtro" category="words"> Dicho </a>
+                <a href="Acción" class="filtro" category="actions"> Acción </a>
+                <a href="Adjetivo" class="filtro" category="adjectives"> Adjetivo </a>
+                <a href="Situación" class="filtro" category="situation"> Situación </a>
+                <a href="Vida_cotidiana" class="filtro" category="cotidianlife"> Vida cotidiana </a>
+                <a href="Forma_de_decir" class="filtro" category="says"> Forma de decir </a>
+            </div>
 
-</header>
-<body class="fondito" background="../../../static/img/estrellitas.jpg">
+            
+            <section class="modismos">
+                
+                {% for palabra, definicion, filtro, busco_coca in diccionario_palabras %}
 
-
-    {% for palabra, definicion, filtro in diccionario_palabras%}
-
-        {% if "Acción" in filtro %}
-            <h2 style="color:white">{{palabra}}:  {{definicion}}  </h2>
-        {% endif %}
-    {%endfor%}
-
+                {% if busco_coca in filtro %}
+                <hr>
+                <br>
+                <h1 class="palabra" > {{palabra}} </h1>
+                <h1 class="categoria"> {{filtro}} </h1>&nbsp;
+                <h1 class="definicioon"> {{definicion}} </h1>&nbsp;
+                <br>
+                <br>
+                <hr>
+                {% endif %}
+                {%endfor%}
+            </section>  
+        </div>
+    </div> 
+    <section class="modismos">
 </body>
+</head>
 </html>

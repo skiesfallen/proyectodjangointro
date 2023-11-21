@@ -1,34 +1,37 @@
-Achacarse-Desanimarse, entristecerse-Acción
-Achuntar-Acertar, estar en lo correcto-Acción 
-A lapa-Subirse a los hombros de otra persona-Acción 
-Al lote-Desordenado, sin orden, sin reglas-Adjetivo 
-Al tiro-De inmediato-Forma de decir 
-Al toque-Hacer algo de manera inmediata-Acción
-Andar pato-No tener dinero-Forma de decir/Dicho 
-Apañar-Apoyar a alguien-Acción 
-Apestarse-Aburrirse, amargarse, enojarse, disgustarse-Acción 
-Aperrar-Ser valiente, ser perseverante-Acción 
+Achacarse-Desanimarse, entristecerse.-Acción
+Achuntar-Acertar, estar en lo correcto.-Acción 
+A lapa-Subirse a los hombros de otra persona.-Acción 
+Al lote-Desordenado, sin orden, sin reglas.-Adjetivo 
+Al tiro-De inmediato.-Forma de decir 
+Al toque-Hacer algo de manera inmediata.-Acción
+Andar pato-No tener dinero.-Forma de decir/Dicho 
+Apañar-Apoyar a alguien.-Acción 
+Apestarse-Aburrirse, amargarse, enojarse, disgustarse.-Acción 
+Aperrar-Ser valiente, ser perseverante.-Acción 
 Apitutado-Alguien que tiene buenos contactos y consigue beneficios por ello.-Adjetivo 
-Apretado-Avaro, tacaño, egoísta, que no presta dinero-Adjetivo
-Apretar cachete-Escapar rapido de un lugar
-Atao-Problema-Dificulad para resolver una situacion
-Avispado-Inteligente, ágil, alguien audaz-Adjetivo
-Bacán-Increíble, excelente, espectacular, bueno-Adjetivo
-Cabra/o-Jóvenes o niño/a
-Cogoteo-Tipo de robo
-Curao-Bajo los efectos del alcohol
-De pana-Es un sinonimo de bacán,increible
-Embarrarla-Arruinar algo o una situacion
-Fome-Sin gracia o aburrido
-Gamba-Cien pesos
-Hallula-Tipo de pan 
-Hacer una vaca-Juntar dinero entre amigos para comprar algo
-Mandarse un condoro-Cometer un error
-Pega-Trabajo
-Sacar la cresta-Pegarle a alguien/Caerse
-Sapo-Persona que cuenta todo
-Ser cagado-Cuando una persona no suelta dinero facilmente
-Venderla-Andar pavo o poco atento 
-Yunta-Amigo/a
-
-
+Apretado-Avaro, tacaño, egoísta, que no presta dinero.-Adjetivo
+Apretar cachete-Escapar rapido de un lugar.-Acción
+Atao-Problema, dificultad para resolver una situacion.-Situación
+Avispado-Inteligente, ágil, alguien audaz.-Adjetivo
+Bacán-Increíble, excelente, espectacular, bueno.-Adjetivo
+Cabra/o-Jóvenes o niño/a.-Adjetivo
+Cachai-Captar, entender.-Acción
+Cachureos-Cosas sin usar, cosas inútiles. También corresponde al nombre de una popular serie chilena.-Vida cotidiana
+Cogoteo-Tipo de robo.-Situación
+Curao-Bajo los efectos del alcohol.-Adjetivo
+De pana-Sinónimo de bacán, increíble.-Forma de decir
+Embarrarla-Arruinar algo o una situación.-Acción
+Fome-Sin gracia o aburrido.-Adjetivo
+Gamba-Cien pesos.-Vida cotidiana
+Hallulla-Tipo de pan, el cual es redondo.-Vida cotidiana
+Hacer una vaca-Juntar dinero entre amigos para comprar algo.-Acción
+Mandarse un condoro-Cometer un error.-Acción
+Palta-Aguacate. Fruto que proviene del árbol de palto.- Vida cotidiana
+Pega-Trabajo.-Vida cotidiana
+Polola-Novia.-Vida cotidiana
+Pololo-Novio.-Vida cotidiana
+Sacar la cresta-Pegarle a alguien, caerse.-Acción
+Sapo-Persona que cuenta todo.-Adjetivo
+Ser cagado-Cuando una persona no suelta dinero facilmente.-Adjetivo
+Venderla-Andar pavo, poco atento.-Adjetivo
+Yunta-Amigo/a.-Vida cotidiana
