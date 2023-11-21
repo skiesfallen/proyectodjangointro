@@ -58,9 +58,11 @@ def buscar_ubicacion(request):
         if lugar:
             coordenadas = obtener_coordenadas(lugar)
             return render(request, 'resultadobuscador.html', {'coordenadas': coordenadas})
+        
         else:
             mensaje_error = 'Por favor, ingresa una ubicación.'
             return render(request, 'buscador.html', {'error': mensaje_error})
+        
     else:
         return render(request, 'buscador.html')
     
