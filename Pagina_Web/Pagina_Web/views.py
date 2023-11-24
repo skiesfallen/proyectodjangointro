@@ -82,3 +82,9 @@ def obtener_coordenadas(lugar):
             coordenadas = feature['geometry']['coordinates']
             return {'nombre': nombre, 'coordenadas': coordenadas}
     return None
+
+def integrantes(request):
+     return render(request, "index/integrantes.html")
+
+def sobre_nosotros(request):
+    return render(request,"index/sobre_nosotros.html")
