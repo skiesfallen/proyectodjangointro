@@ -18,18 +18,20 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from Pagina_Web.views import prueba, mapa, modismos, index, readfile, buscar_ubicacion, integrantes, sobre_nosotros
+from Pagina_Web.views import prueba, mapa, modismos, index, readfile, buscar_ubicacion, integrantes, sobre_nosotros, error_404_view
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index),
     path('mapa/', mapa),
     path('modismos/', modismos),
-    path('test1/', prueba),
+    path('prueba/', prueba),
     path('integrantes/', integrantes),
     path('sobre_nosotros/', sobre_nosotros),
    path('modismos/<str:filtro>', readfile),
    path('buscador/', buscar_ubicacion, name='buscar_ubicacion')
  ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-
+handler404 = error_404_view
 

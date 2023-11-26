@@ -26,7 +26,7 @@ def modismos(request):
 
 
 def prueba(request):
-    return render(request, "index/pruebas1.html")
+    return render(request, "errores/Error404.html")
 
 
 def readfile(request, filtro):
@@ -88,3 +88,6 @@ def integrantes(request):
 
 def sobre_nosotros(request):
     return render(request,"index/sobre_nosotros.html")
+
+def error_404_view(request, exception):
+    return render(request,'Errores/Error404.html')

@@ -1,170 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
 <html>
-<head>
-    <style type="text/css">
+<head>  
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="../../../static/css/StyleNosotros.css">
+</head>
 
-        body {
-            margin: 0%;
-        }
-
-        header {
-            display: flex;
-            height: 50px;
-            justify-content: right;
-            background-color: white;
-        }
-
-        .title {
-            text-align: center; 
-            font-size: 30px; 
-            color: white; 
-            font-style: oblique; 
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            margin: auto;
-            max-width: 700px;
-            line-height: 150%;
-        }
-
-        .logo {
-            display: flex;
-            font-size: 10px;
-            margin-right: 1050px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-
-        .logo img{
-            margin-top: 5px;
-            margin-right: 10px;
-            height: 40px;
-            width: 40px;
-        }
-
-        .register {
-            text-align: center;
-            margin-top: 10px;
-            font-size: 16px;
-            padding: 3px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-color:rgba(0, 0, 0, 0.523);
-            border-radius: 10px;
-            border-style: dashed;
-            cursor: pointer;
-        }
-
-        .login {
-            text-align: center;
-            margin-top: 10px;
-            margin-right: 10px;
-            font-size: 16px;
-            padding: 3px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-color:rgba(0, 0, 0, 0.523);
-            border-radius: 10px;
-            border-style: dashed;
-            cursor: pointer;
-        }
-
-        .bienvenida {
-            text-align: center; 
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: white; 
-            margin: auto; 
-            max-width: 700px;
-        }
-
-        .boton1 {
-            font-size: 20px;
-            text-align: center;
-            margin-left: 200px;
-            margin-right: 120px;
-            text-align: left;
-            background-color: #1bc06e;
-            padding: 3px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-color:rgba(0, 0, 0, 0.523);
-            border-radius: 10px;
-            border-style: dashed;
-            cursor: pointer;
-        }
-
-        .boton2 {
-            font-size: 20px;
-            text-align: center;
-            margin-left: 120px;
-            margin-right: 140px;
-            text-align: center;
-            background-color: #1bc06e;
-            padding: 3px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-color:rgba(0, 0, 0, 0.523);
-            border-radius: 10px;
-            border-style: dashed;
-            cursor: pointer;
-        }        
-
-        .boton3 {
-            font-size: 20px;
-            text-align: center;
-            margin-left: 140px;
-            margin-right: 140px;
-            text-align: right;
-            background-color: #1bc06e;
-            padding: 3px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-color:rgba(0, 0, 0, 0.523);
-            border-radius: 10px;
-            border-style: dashed;
-            cursor: pointer;
-        }
-
-        .fondo{
-            background-repeat: no-repeat; 
-            background-size: cover;
-        }
-
-    </style>
-
-
-<body class="fondo" background="../../../static/img/fondoo.jpg">
-
+    <button class="btn1"><a href="/mapa/">Mapa Universidad</a></button>
+    <button class="btn2"><a href="/modismos/">Modismos Chilenos</a></a></button>
     <header>
         <br>
-        <div class="logo">
-            <img src="../../../static/img/uvita.jpg">
-            <h1> Searchgull </h1>
-        </div>
-        <a href="https://www.youtube.com/watch?v=wBW310FFoBU">
-            <button class="register">Registrarse</button>
+        <a href="/">
+            <button class="regreso">
+                <img src="../../../static/img/reversa.png">
+                Volver al inicio
+            </button>
         </a>
-        &nbsp;&nbsp;
-        <a href="https://youtu.be/xp4q-EFJnEs?si=05myQlyOAYLF8fk1">
-            <button class="login">Iniciar sesión</button>
-        </a>
-        &nbsp;&nbsp;
-    </header>
-    
-    <br><br><br>
-    <div class="title">
-        <h1>Welcome to</h1>
-        <h1> Searchgull!</h1><br>
-    </div>
+    </header>    
 
+<body class="fondito" background="../../../static/img/fondoo.jpg">
+    <link rel="stylesheet" href="../../../static/css/StyleModi.css">
+
+    <h1>
+        <u>¿Quiénes somos?</u>
+</h1>
+<br>
+<br>
+<h2>Hola, el equipo de searchgull esta formado por 4 integrantes detrás de una visión en común. </h2>
+<br>
+<h2>Samira Estay</h2>
+<h2>Fernanda Vicencio</h2>
+<h2>Jaime Inostroza</h2>
+<h2>Bastian González</h2>
+<br>
+<hr>
+<br>
+
+<h6><u>¿Que buscamos lograr?</u></h6>
+<br>
+<h4>Nuestra intención siempre ha sido generar una ayuda a las personas que llegan a la región por motivos de estudios personales a la Universidad,
     <br>
+    para que asi tengan muy claro lo que ocurre en entornos y la ubicación de ciertos puntos claves e imporantes.
+    <br>
+    En nuestra página podrás encontrar diferentes tipos de ayuda, 
+    <br>
+    desde el mapa el cual sirve para orientarse en la Universidad como fuera de esta.
+    <br>
+ 
 
-    <div class="bienvenida">
-    <h3>¿Estás perdido? ¿Eres nuevo en la Universidad o, quizás en el país? ¡No te preocupes más! Searchgull va a ser tu mejor aliado a la hora de poder conseguir una guía sencilla y útil sobre tu centro de estudios, ¡Buena suerte, aventurero!</h3><br>
-    </div>
-    <br><br><br><br><br><br>
+
+</h4>
+
+
+<br>
+ 
+        
+        
+<h5> Perdonenme, no borré la gaviota <3!</h5>
+<img src="../../../static/img/Gaviota.jpeg" width="400" height="400"/>
+<img src="../../../static/img/uni.jpeg" width="370" height="250"/>
 
 </body>
-<footer>
-    <button class="boton1"> ¿De qué se trata Searchgull? </button>
-    <button class="boton2">Nuestros objetivos</button>
-    <button class="boton3">Sobre nosotros</button>
-</footer>
-</head>
 </html>
