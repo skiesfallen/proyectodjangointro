@@ -87,7 +87,7 @@ def integrantes(request):
      return render(request, "index/integran.html")
 
 def sobre_nosotros(request):
-    return render(request,"index/sobre_nosotros.html")
+    return render(request,"index/nosotros.html")
 
 def error_404_view(request, exception):
     return render(request,'Errores/Error404.html')
