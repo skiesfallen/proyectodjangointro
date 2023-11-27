@@ -84,7 +84,7 @@ def obtener_coordenadas(lugar):
     return None
 
 def integrantes(request):
-     return render(request, "index/integrantes.html")
+     return render(request, "index/integran.html")
 
 def sobre_nosotros(request):
     return render(request,"index/sobre_nosotros.html")
