@@ -35,16 +35,10 @@ body {
 
 }
 
-.wrap {
-    display: flex;
-}
-
-.container {
-    display: flex;
-}
-
-.name {
-    font-size: 30px;
+.gaviota {
+    font-size: 50px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    margin-left: 100px;
+    background-color: aqua;
 }
