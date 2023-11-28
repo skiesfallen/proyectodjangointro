@@ -35,5 +35,7 @@ body {
 }
 
 .container {
+    text-align: center;
+    font-size: 30p;
     background-color: aquamarine;
 }
