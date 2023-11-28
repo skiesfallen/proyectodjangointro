@@ -35,28 +35,3 @@ body {
 
 }
 
-.container {
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.one {
-    background-color: aqua;
-    justify-content: left;
-}
-
-.two {
-    background-color: yellow;
-    justify-content: right;
-}
-
-.three {
-    background-color: green;
-    justify-content: center;
-}
