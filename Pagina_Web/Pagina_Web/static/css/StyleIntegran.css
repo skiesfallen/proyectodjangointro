@@ -28,3 +28,12 @@ body {
     cursor: pointer;
 
 }
+
+.titulo {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: aquamarine;
+}
