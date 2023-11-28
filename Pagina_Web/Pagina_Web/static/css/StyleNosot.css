@@ -42,3 +42,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: green;
+}
