@@ -35,11 +35,11 @@ body {
 
 }
 
-footer {
+.wrap {
     display: flex;
-    padding: 0%;
-    margin: auto;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url(../../../static/img/cat.jpg);
 }
 
 .name {
