@@ -8,23 +8,3 @@
 body {
     font-family: 'Lora', serif;
 }
-
-.regreso img {
-    width: 15px;
-    height: 15px;
-}
-
-.regreso {
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 16px;
-    padding: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-color:rgba(0, 0, 0, 0.523);
-    border-radius: 10px;
-    border-style: dashed;
-    cursor: pointer;
-
-}
