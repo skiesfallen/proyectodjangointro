@@ -1,82 +1,153 @@
 <!DOCTYPE html>
-<html>
-<head>  
-    <title>SearchGull</title>
-    <link rel="stylesheet" href="../../../static/css/StyleIntegrantes.css">
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descripción de Personas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px auto;
+    }
+
+    .person {
+      width: 30%;
+      height: 500px;
+      padding: 20px;
+      background-color: #ede6db;
+
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+ 
+    .imgg img{
+        max-width: 25%;
+        border-radius: 50%;
+
+    }
+
+    .meme img{
+        padding-top: 40px;
+        width: 400px;
+        height: 200px;
+        padding-left: 25px;
+    }
+    .meme1 img{
+        padding-top: 40px;
+        width: 400px;
+        height: 200px;
+        padding-left: 50px;
+    }
+    .meme2 img{
+        padding-top: 40px;
+        width: 400px;
+        height: 200px;
+        padding-left: 35px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+  </style>
+  <style>
+    .regreso img {
+    width: 15px;
+    height: 15px;
+}
+
+    .regreso {
+        float: left;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 10px;
+        font-size: 16px;
+        padding: 3px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-color:rgba(0, 0, 0, 0.523);
+        border-radius: 10px;
+        border-style: dashed;
+        cursor: pointer;
+
+    }
+
+  </style>
 </head>
-<header>
-    <br>
-    <a href="/">
-        <button class="regreso">
-            <img src="../../../static/img/reversa.png">
-            Volver al inicio
-        </button>
-    </a>
-</header>
+<body background="../../../static/img/fondoo.jpg">
 
+  <header>
+      <a href="/">
+          <button class="regreso">
+              <img src="../../../static/img/reversa.png">
+              Volver al inicio
+          </button>
+      </a>
+    <h1>Sobre Nosotros</h1>
+  </header>
 
-<body class="fondito" background="../../../static/img/fondoo.jpg">
-    <link rel="stylesheet" href="../../../static/css/StyleIntegran.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+  <div class="container">
+    <div class="person">
+      <div class="imgg">
+        <img class="img" src="../../../static/img/PIXELES.jpg" alt="Persona 1">
+      </div>
+      <h2>FER</h2>
+      <p>Fanática de Five Nights at Freddy's y dueña orgullosa de un gato adorable.</p>
+      <br>
 
-    <br>
-    <h1 class="titulo"> ¿Quiénes somos? </h1>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-        <div class="presentacion">
-            <figure>
-                <img src="../../static/img/pergamino.jpg">
-            </figure>
-            <div class="name">
-                <h3> Gaviota </h3>
-            </div>
-
-            <figure>
-                <img src="../../static/img/Gaviota.jpeg">
-            </figure>
-            <div class="datos">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus hic porro iure optio placeat laborum autem harum dignissimos dicta iste veniam, officiis ullam aperiam nisi dolorem veritatis et voluptatum ad.</p>
-            </div>
-        </div>
-
-        <div class="presentacion">
-            <figure>
-                <img src="../../static/img/pergamino.jpg">
-            </figure>
-            <div class="name">
-                <h3> Gaviota </h3>
-            </div>
-
-            <figure>
-                <img src="../../static/img/uni.jpeg">
-            </figure>
-            <div class="datos">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus hic porro iure optio placeat laborum autem harum dignissimos dicta iste veniam, officiis ullam aperiam nisi dolorem veritatis et voluptatum ad.</p>
-            </div>
-        </div>
-
-        <div class="presentacion">
-            <figure>
-                <img src="../../static/img/pergamino.jpg">
-            </figure>
-            <div class="name">
-                <h3> Gaviota </h3>
-            </div>
-            
-            <figure>
-                <img src="../../static/img/cat.jpg">
-            </figure>
-            <div class="datos">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus hic porro iure optio placeat laborum autem harum dignissimos dicta iste veniam, officiis ullam aperiam nisi dolorem veritatis et voluptatum ad.</p>
-            </div>
-        </div>
+      <div class="meme">
+        <img  src="../../../static/img/BEBE.gif" >
+      </div>
     </div>
 
-    
+    <div class="person">
+      <div class="imgg">
+        <img class="img" src="../../../static/img/FOKINGENIO.jpg" alt="Persona 1">
+      </div>
+      <h2>SAMI</h2>
+      <p>Jugadora apasionada de ultimate frisbee y amante de los animales.</p>
+      <br>
 
+      <div class="meme2">
+        <img  src="../../../static/img/monkey-monkey-running.gif" >
+      </div>
+      
+    </div>
 
+    <div class="person">
+      <div class="imgg">
+        <img class="img" src="../../../static/img/Gaviota.jpeg" alt="Persona 1">
+      </div>
+      <h2>Jaime</h2>
+      <p> Amante de los juegos en la computadora y devorador de pollo de KFC.</p>
+      <br><br>
+
+      <div class="meme1">
+        <img  src="../../../static/img/zorro.gif" >
+      </div>
+     
+    </div>
+  </div>
 
 </body>
 </html>

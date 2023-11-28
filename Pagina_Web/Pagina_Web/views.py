@@ -26,7 +26,7 @@ def modismos(request):
 
 
 def prueba(request):
-    return render(request, "errores/Error404.html")
+    return render(request, "pruebas1.html")
 
 
 def readfile(request, filtro):
