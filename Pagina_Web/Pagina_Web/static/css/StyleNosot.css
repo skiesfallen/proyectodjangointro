@@ -32,5 +32,10 @@ body {
 .titulo{
     font-size: 50px;
     text-align: center;
+
+}
+
+.header2 {
+    width: 300px;
     
 }
