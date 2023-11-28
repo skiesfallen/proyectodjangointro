@@ -36,10 +36,16 @@ body {
 }
 
 .container {
-    display: flex;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+
 }
 
 .name {
     font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
