@@ -35,24 +35,6 @@ body {
 
 }
 
-.alineamiento {
+.container {
     display: flex;
-}
-
-.gaviota img {
-    width: 30px;
-    height: 20px;
-
-}
-
-.gatito img {
-    width: 30px;
-    height: 20px;
-
-}
-
-.a img {
-    width: 30px;
-    height: 20px;
-
 }
