@@ -34,16 +34,16 @@
     </header>
     <br>
 
-    <div class="form">
+    <!-- <div class="form">
         <form method="post" action="{% url 'buscar_ubicacion' %}">
             {% csrf_token %}
             <label for="ubicacion">Buscar Ubicación:</label>
             <input type="text" id="ubicacion" name="ubicacion" required>
             <button type="submit">Buscar</button>
         </form>
-    </div>
+    </div> -->
     
-    <div id="map" style="width: 75%; height: 700px;"></div>
+    <div id="map" style="width: 100%; height: 700px;"></div>
 
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
