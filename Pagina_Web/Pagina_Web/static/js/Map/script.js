@@ -2,7 +2,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-71.59496643495604,-33.035960040525815], // Coordenadas iniciales del mapa (UTFSM)
-    zoom: 16.5 // Nivel de zoom inicial
+    zoom: 0.01 // Nivel de zoom inicial
 });
 map.addControl(new mapboxgl.NavigationControl());
 
